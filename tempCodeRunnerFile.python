@@ -1,0 +1,22 @@
+# import package.first as o
+# import package.second as w
+
+# print(package.o.sum(4,3))
+# print(package.w.mul(3,2))
+
+# from package import first,second
+
+# print(first.sum(3,2))
+# print(second.mul(2,3))
+
+# from package import stud
+
+import package.stud
+m1 = int(input("Enter the number m1:"))
+m2 = int(input("enter the number m2:"))
+m3 = int(input("Enter the number m3:"))
+
+tot = m1+m2+m3
+
+print(stud.stud_total(m1,m2,m3))
+print(stud.stud_per(m1,m2,m3))
